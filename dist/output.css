@@ -576,11 +576,6 @@ video {
   position: relative;
 }
 
-.inset-x-0 {
-  left: 0px;
-  right: 0px;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -614,6 +609,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -624,6 +623,14 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .line-clamp-4 {
@@ -804,6 +811,10 @@ video {
   padding-bottom: 5rem;
 }
 
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
 .pt-28 {
   padding-top: 7rem;
 }
@@ -960,26 +971,29 @@ h6 {
   width: 100%;
   max-width: 1440px !important;
   margin: 0 auto;
+}
+
+.element{
   padding-left: 100px;
   padding-right: 100px;
 }
 
 /* @media screen and (max-width: 1023px) {
-	.container {
+	.element {
 	  padding-left: 10px !important;
 	  padding-right: 10px !important;
 	}
   } */
 
 @media screen and (max-width: 767px) {
-  .container {
+  .element {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .container {
+  .element {
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -1034,6 +1048,10 @@ h6 {
 
   .md\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:flex {
@@ -1123,6 +1141,10 @@ h6 {
   .md\:bg-\[\#FEFCF3\] {
     --tw-bg-opacity: 1;
     background-color: rgb(254 252 243 / var(--tw-bg-opacity));
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-2xl {
